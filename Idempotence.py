@@ -23,3 +23,10 @@ print(f"{my_set = }")
 
 # The use of set operations. For instance, adding an item to a set is idempotent, as adding the same item multiple
 # times will not change the set beyond the initial addition.
+
+# Practical example:
+# Idempotence are used in HTTP methods:
+# GET - Idempotent  <url>/users/123 -> It will give you the same result no matter how many times you call it.
+# PUT - Idempotent  Updating values -> You update same parameter to the same value everytime it will give you the same result.
+# POST - NOT Idempotent -> It is used for changing data in the background.
+# DELETE - Idempotent -> Once you delete the state of the server will remain the same no matter how many times you call it .
