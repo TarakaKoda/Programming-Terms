@@ -1,4 +1,7 @@
 # Idempotence:
+# That describes an operation that can be applied multiple times without changing the result beyond the initial application.
+# In other words, if an operation is idempotent, performing it once has the same effect as performing it multiple times.
+
 # Idempotence can be achieved by writing functions or methods that perform the same action every time
 # they are called with the same arguments.
 
